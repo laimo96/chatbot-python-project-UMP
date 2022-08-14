@@ -1,0 +1,64 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "Is anyone there?", "Hey", "Hola", "Hello", "Good day"],
+         "responses": ["Hello", "Good to see you again", "Hi there, how can I help?", "Hey"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?",
+           "What support is offered", "Tell me something", "What can you tell me", "what can you say"],
+         "responses": ["I can help with simple questions about University Centre Peterborough. I can provide email address, phone number, work hours."],
+         "context": [""]
+        },
+        {"tag": "age",
+         "patterns": ["how old are you", "how old is {name}", "age!"],
+         "responses": ["I am an AI chatbot, I don't have an age", "I was created this year, so I am a new born bot!"],
+         "context": [""]
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?", "who are you",
+          "can you tell me your name?"],
+         "responses": ["You can call me Chatty", "Chatty", "Well, some people call me Chatty"],
+         "context": [""]
+        },
+        {"tag": "hours",
+         "patterns": ["when are you guys open", "opening hours", "working hours", "university working hours",
+          "university opening hours", "till when are you open", "working time", "open time"],
+         "responses": ["University is open monday-thursday : 9am-9pm, friday : 9am-5.30pm, and weekend we are closed!"],
+         "context": [""]
+        },
+        {"tag": "email",
+         "patterns": ["what is university email?", "uni email", "can I get university email", "what is email?",
+           "tell me the email"],
+         "responses": ["hello@ucp.ac.uk"],
+         "context": [""]
+        },
+        {"tag": "phone_number",
+         "patterns": ["what is university phone number?", "university mobile number", "mobile number",
+           "phone number"],
+         "responses": ["01733 214466"],
+         "context": [""]
+        },
+        {"tag": "feeling",
+         "patterns": ["how are you", "are you good", "how are you feeling", "how are you doing", "you alright?"],
+         "responses": ["I am feeling good :)", "I am alright, thank you", "I am a bot, I am not programmed to have feelings",
+           "Amazing", "Good", "Wonderful"],
+         "context": [""]
+        }
+   ]
+}
